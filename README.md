@@ -7,8 +7,8 @@
 -  java –classpath
       ./lib/ojdbc8.jar:./lib/ucp.jar:./lib/oraclepki.jar:./lib/osdt_core.jar:./lib/osdt_cert.jar:. -jar "runnable jar file"
 ```  
-- when you use Eclipse or other IDE tools, you need to add ojdbc.jar and other essential jar libraries in the referenced libraries path
-- in the application.properties file, you need to fill up the profile, wallet path, user, password, and file path
+- When you use Eclipse or other IDE tools, you need to add ojdbc.jar and other essential jar libraries in the referenced libraries path
+- In the application.properties file, you need to fill up the profile, wallet path, user, password, and file path
 
 ## Workflow
 - Call RESTful API, then select a table from ADB, and write CSV file as a result
